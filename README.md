@@ -1,4 +1,4 @@
-#What are some differences between interfaces and types in TypeScript?
+# What are some differences between interfaces and types in TypeScript?
 
 Interface: 
 1.allow declaration margin 
@@ -15,7 +15,7 @@ Type :
 
 
 
-#What is the use of the keyof keyword in TypeScript? Provide an example.
+# What is the use of the keyof keyword in TypeScript? Provide an example.
 Keyof used for get key of types as union of string literal 
 interface Person {
   name: string;
