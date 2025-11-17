@@ -1,4 +1,4 @@
-// 1
+
 
 function formatValue(value: string | number | boolean){
     if(typeof value == 'string'){
@@ -17,7 +17,7 @@ function formatValue(value: string | number | boolean){
 
 
 
-// 2
+
 function getLength(value: string | any[]): number {
     if (typeof value === 'string') {
         return value.length;
@@ -30,7 +30,7 @@ function getLength(value: string | any[]): number {
 
 
 
-// 3
+
 
 class Person {
     name:string;
@@ -49,7 +49,7 @@ class Person {
 
 
 
-// 4
+
 
 
 type item ={
@@ -68,7 +68,7 @@ function filterByRating(value : item[]):item[]{
 
 
 
-// 5
+
 
 type Item ={
     id : number
@@ -87,7 +87,7 @@ function filterActiveUsers(value : Item[]):Item[]{
 
 
 
-// 6
+
 
 interface Book {
     title: string;
@@ -100,21 +100,14 @@ interface Book {
 function printBookDetails(myBook:Book){
   console.log(`Title: ${myBook.title}, Author:${myBook.author}, Published: ${myBook.publishedYear}, Available: ${myBook.isAvailable ? 'Yes' : 'No'}`)
 }
-const myBook: Book = {
-  title: 'The Great Gatsby',
-  author: 'F. Scott Fitzgerald',
-  publishedYear: 1925,
-  isAvailable: true,
-};
-
-
-printBookDetails(myBook);
 
 
 
 
 
-// 7
+
+
+
 
 function getUniqueValues(array1: (string | number)[], array2: (string | number)[]): (string | number)[] {
     const uniqueMap = new Map<string | number, boolean>();
@@ -138,7 +131,7 @@ function getUniqueValues(array1: (string | number)[], array2: (string | number)[
 
 
 
-// 8
+
 
 interface Product {
     name: string;
